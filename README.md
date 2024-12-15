@@ -18,7 +18,7 @@ JSON server integration for mock backend data.
 
  - Clone the repository:
 ```js
-git clone https://github.com/your-username/travel-trip-web.git
+git clone https://github.com/Fiw0202/travel-trip-web
 ```
 - Navigate into the project directory:
 ```js
