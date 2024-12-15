@@ -1,51 +1,37 @@
-# React + TypeScript + Vite
+# Travel trip web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ A basic web app built using React, Vite, TypeScript, and Ant Design (Antd). This project is a simple website for displaying travel trip data fetched from a JSON server using Axios.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Display travel trip data in an intuitive UI.
 
-## Expanding the ESLint configuration
+Modern front-end technologies: React + Vite for fast development.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+TypeScript for type-safe code.
 
-- Configure the top-level `parserOptions` property like this:
+Ant Design for a polished user interface.
 
+JSON server integration for mock backend data.
+
+# Installation
+
+ - Clone the repository:
 ```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+git clone https://github.com/your-username/travel-trip-web.git
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
+- Navigate into the project directory:
 ```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+cd travel-trip-web
 ```
-# travel-trip-web
+- Install dependencies:
+```js
+npm install
+```
+- Start development project
+```js
+npm run dev
+```
+**Enjoy for my project
+
+
